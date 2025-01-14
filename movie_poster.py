@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # TMDb API 키 설정
-API_KEY = 'd8008cc7b9a93e22bf785e9cda213ac0'  # 자신의 API 키로 교체
+API_KEY = st.secrets["tmdb"]["api_key"]
 
 # 영화 제목을 입력받는 텍스트 입력 필드
 movie_title = st.text_input("영화 제목을 입력하세요:")
