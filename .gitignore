@@ -1,3 +1,2 @@
-streamlit/
-
-README.md # 디렉토리 하위 디렉토리에 있는 파일들도 무시함.
+# Streamlit secrets 파일
+.streamlit/secrets.toml
